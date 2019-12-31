@@ -3,9 +3,7 @@ def make_readable(sec):
 	sec = (sec % 3600)
 	m = (sec // 60)
 	sec = (sec % 60)
-	s = sec
-	# print("{:02d}:{:02d}:{:02d}".format(h,m,s))
-	return "{:02d}:{:02d}:{:02d}".format(h,m,s)
+	return "{:02d}:{:02d}:{:02d}".format(h,m,sec)
   
 
 
